@@ -1,11 +1,17 @@
 import React from 'react'
-
-const home = () => {
-  return (
-    <div>
-      This is home
-    </div>
-  )
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+  
+const Home = () => {
+    return (
+        <div>
+            This is home
+        </div>
+    )
 }
 
-export default home
+export default Home
